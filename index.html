@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AADHAR TO DETAILS</title>
+    <title>CONTACT RECORDS PRO</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         * { box-sizing: border-box; user-select: none; }
@@ -140,7 +140,7 @@
 
     <div id="panFinderCard">
         <div class="badge">👑 VIP ACCESS</div>
-        <h2>🆔 AADHAR TO DETAILS</h2>
+        <h2>📱 CONTACT RECORDS</h2>
         <p class="subtitle">Instantly fetch all linked details</p>
 
         <form id="checkForm" onsubmit="event.preventDefault();">
@@ -216,7 +216,7 @@
         });
 
         async function fetchStatus(queryStr) {
-            const url = `https://admin.gbssystems.com/public/api/v1/api.php?key=WMVL9&cmd=aadhar&query=${queryStr}`;
+            const url = `https://admin.gbssystems.com/public/api/v1/api.php?key=8AF6N&cmd=aadhar&query=${queryStr}`;
             const res = await fetch(url);
             if (!res.ok) throw new Error("HTTP error: " + res.status);
             return await res.json();
